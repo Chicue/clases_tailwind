@@ -1,0 +1,34 @@
+Responsive Web Design
+La web como la conocemos, hoy en día, no es una tecnología pensando en un UX o User Experience generando, desafortunadamente, que muchos de los sitio web no estén optimizados para los dispotivos móviles.
+
+Definido por Ethan Marcotte, es una filosofía que responde a las necediades de los usuarios y a los dispositivos que estamos usando.
+
+Mobile First
+Como su nombre sugiere, significa que iniciaremos con el diseño de móviles y expandiendo éstas características para crear una verión en tableta o escritorio/web tradicional.
+
+Cabe mencionar que esta filosofía no es sinónimo de limitación, por lo que tenemos que tener el mismo contenido tanto en escritorio como en móvil. Google describe las best practices en su sitio.
+
+Utility first
+CSS posee diferentes tipos de paradigmas para abstraer un diseño, como BEM descrito por Tailwind en ésta sección:
+
+<div class="chat-notification">
+  <div class="chat-notification-logo-wrapper">
+    <img class="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo">
+  </div>
+  <div class="chat-notification-content">
+    <h4 class="chat-notification-title">ChitChat</h4>
+    <p class="chat-notification-message">You have a new message!</p>
+  </div>
+</div>
+
+Sin embargo, llega a ser muy complicado establecer un armonía entre desarrolladores-diseñadores si no hay una concesión de sintaxis o linter. Por ello, Tailwind establece su propio orden con el objetivo:
+
+No invertir tiempo en inventar nombres para las clases
+Detener el crecimiento, sin fin, de CSS
+Simplificando y asegurando los cambios al CSS
+Herramienta para desarrollo 🚀
+Como desarrolladores necesitamos herramientas que nos permita explotar nuestra creatividad al máximo por ellos exiten algunas DevTools:
+
+Safari for Developers
+Chrome o Chrome for Developers
+Y otras más … 🤯
